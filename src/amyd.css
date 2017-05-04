@@ -1,2 +1,20 @@
 html, body {
   font-family: "Nunito", sans-serif; }
+
+header {
+  background: url("./img/E1976_04.jpg") top;
+  height: 33vh;
+  display: flex;
+  align-items: flex-end; }
+  header .logo-container {
+    width: 100%;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px 0; }
+    header .logo-container .logo {
+      max-width: 300px; }
+
+nav ul {
+  list-style: none; }
+  nav ul li {
+    display: inline-block; }

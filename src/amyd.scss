@@ -3,3 +3,29 @@ $nunito: 'Nunito', sans-serif;
 html, body {
   font-family: $nunito;
 }
+
+header {
+  background: url('./img/E1976_04.jpg') top;
+  height: 33vh;
+  display: flex;
+  align-items: flex-end;
+  .logo-container {
+    width: 100%;
+    text-align: right;
+    background: rgba(255,255,255,.6);
+    padding: 20px 0;
+    .logo {
+      max-width: 300px;
+    }
+  }
+}
+
+nav {
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+
+    }
+  }
+}
