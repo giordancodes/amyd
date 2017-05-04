@@ -1,7 +1,15 @@
 $nunito: 'Nunito', sans-serif;
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html, body {
   font-family: $nunito;
+  margin: 0;
 }
 
 header {
@@ -13,7 +21,7 @@ header {
     width: 100%;
     text-align: right;
     background: rgba(255,255,255,.6);
-    padding: 20px 0;
+    padding: 15px 0;
     .logo {
       max-width: 300px;
     }
@@ -21,11 +29,20 @@ header {
 }
 
 nav {
+  width: 100%;
+  background-color: #111;
   ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
     li {
       display: inline-block;
-
+      text-transform: uppercase;
+      padding: 20px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
     }
   }
 }

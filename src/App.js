@@ -13,9 +13,9 @@ class App extends Component {
         </header>
         <nav>
           <ul>
-            <li>123</li>
-            <li>123</li>
-            <li>123</li>
+            <li><a href="#">AMYD</a></li>
+            <li><a href="#">Artist</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
