@@ -18,6 +18,9 @@ class App extends Component {
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <div className="content">
+          
+        </div>
       </div>
     );
   }
