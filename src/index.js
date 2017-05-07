@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Amyd from './Amyd';
 import './amyd.css';
 
 ReactDOM.render(
-  <App />,
+  <Amyd />,
   document.getElementById('root')
 );

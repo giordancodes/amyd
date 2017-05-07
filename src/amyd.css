@@ -44,3 +44,11 @@ nav {
 .content {
   background: #111;
   height: 100vh; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #eee;
+  text-align: right;
+  padding: 10px; }
