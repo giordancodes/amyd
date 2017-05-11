@@ -13,17 +13,19 @@ html, body {
 }
 
 header {
-  background: url('./img/E1976_04.jpg');
+  background: url('./img/E1976_04_1.jpg') 100% 100%;
+  background-size: cover;
   height: 33vh;
   display: flex;
   align-items: flex-end;
   .logo-container {
     width: 100%;
     text-align: right;
-    background: rgba(255,255,255,.6);
-    padding: 15px 0;
+    // background: rgba(255,255,255,.6);
+    padding: 10px 0;
     .logo {
-      max-width: 300px;
+      max-width: 200px;
+      padding-right: 15px;
     }
   }
 }
@@ -66,4 +68,22 @@ footer{
   background: #eee;
   text-align: right;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .copyright {
+    font-size: .9em;
+  }
+  .social {
+    a {
+      color: #111;
+    }
+    &>*{
+      margin-left: 10px;
+      transition: color .3s;
+      &:hover,
+      &:focus {
+        color: #555;
+      }
+    }
+  }
 }

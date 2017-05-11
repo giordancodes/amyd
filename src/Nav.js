@@ -7,13 +7,10 @@ class Nav extends Component {
       <nav>
         <ul>
           <li>
-            <a href="#">AMYD</a>
+            <a href="#">AMYD Sound</a>
           </li>
           <li>
             <a href="#">Artist</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 
-import logo from './amyd-logo.png';
+import logo from './amyd-sound.png';
 import './amyd.css';
 
 class Amyd extends Component {

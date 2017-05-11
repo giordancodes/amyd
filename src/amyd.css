@@ -9,17 +9,18 @@ html, body {
   margin: 0; }
 
 header {
-  background: url("./img/E1976_04.jpg");
+  background: url("./img/E1976_04_1.jpg") 100% 100%;
+  background-size: cover;
   height: 33vh;
   display: flex;
   align-items: flex-end; }
   header .logo-container {
     width: 100%;
     text-align: right;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 15px 0; }
+    padding: 10px 0; }
     header .logo-container .logo {
-      max-width: 300px; }
+      max-width: 200px;
+      padding-right: 15px; }
 
 nav {
   width: 100%;
@@ -51,4 +52,15 @@ footer {
   width: 100%;
   background: #eee;
   text-align: right;
-  padding: 10px; }
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
+  footer .copyright {
+    font-size: .9em; }
+  footer .social a {
+    color: #111; }
+  footer .social > * {
+    margin-left: 10px;
+    transition: color .3s; }
+    footer .social > *:hover, footer .social > *:focus {
+      color: #555; }
